@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- BOX Icons -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <a href="#" class="logo">Bolupe</a>
+      <div class="toggle" onclick="toggleMenu();"></div>
+
+      <!-- Menu -->
+      <ul class="menu">
+        <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu();">About</a></li>
+        <li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
+        <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Main Home Text And Image -->
+    <section id="home">
+      <div class="home-text">
+        <h1>
+          Hi, I'm <br />Bolupe <span>Taiwo</span> <br />A Front-end Developer
+        </h1>
+        <!-- Button -->
+        <a href="#about">More About me</a>
+      </div>
+      <!-- Home Image -->
+      <div class="home-img">
+        <img src="images/profile.jpg" alt="my photo" />
+      </div>
+
+      <!-- Social -->
+      <div class="social">
+        <a href="https://github.com/Bolupe" target="_blank"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/bolupe-taiwo/" target="_blank"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="https://mobile.twitter.com/bolupeee" target="_blank"
+          ><i class="bx bxl-twitter"></i
+        ></a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="heading">
+        <h2>About me</h2>
+        <p>An Introduction</p>
+      </div>
+      <div class="about-content">
+        <!-- About Image -->
+        <div class="about-img">
+          <img src="images/about.png" alt="memoji" />
+        </div>
+        <!-- About Text -->
+        <div class="about-text">
+          <h1>I'm Bolupe</h1>
+          <p>
+            A tech enthusiast, who is passionate about building beautiful and responsive websites that are user friendly and accessible to all. 
+            I'm a self-taught Frontend Developer skilled in HTML<i class="bx bxl-html5"></i>, CSS <i class="bx bxl-css3"></i>, JS <i class="bx bxl-javascript"></i>, TailwindCSS <i class="bx bxl-tailwind-css"></i>, ReactJS <i class="bx bxl-react"></i>, Firebase <i class="bx bxl-firebase"></i>, Git and Github <i class="bx bxl-github"></i> 
+            with cerfications from various organiztions such as freecodecamp, Udemy, Zuri and many others.
+            I'm also a huge fan of the open source community and I always look forward to contributing to open source projects. 
+            I'm currently looking for opportunities to work with a team of developers to build amazing products. 
+            Lastly, I double as a student at the University of Lagos pursuing a degree in Building.   
+          </p>
+          <a
+            href="https://drive.google.com/file/d/1IBDyCJo5CC_vhFk5ordeWgf9nR1Vu3wx/view?usp=sharing"
+            target="_blank"
+            >Download Cv</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- projects -->
+    <section id="projects">
+      <div class="heading">
+        <h2>Projects</h2>
+        <p>Projects I've worked on</p>
+      </div>
+      <div class="projects-content">
+        <!-- Boxes -->
+        <div class="box">
+         <a href="https://bolupe.github.io/Get-to-know-me/" target="_blank">
+          <img src="images/quiz.-website.png" alt="project-screenshot" />
+          <h1>Get To Know Me</h1>
+          <p>
+            A short quiz made with vanilla Javascript. With this short quiz, you get to know a bit more about me.
+            Pretty awesome right!
+          </p>
+          </a>
+        </div>
+
+        <div class="box">
+          <a href="https://coffee-website-snowy.vercel.app/" target="_blank">
+          <img src="images/coffee-website.png" alt="project-screenshot" />
+          <h1>Coffee Website</h1>
+          <p>
+            A simple product website built using HTML, CSS and JavaScript only.
+          </p>
+          </a>
+        </div>
+
+        <div class="box">
+            <a href="https://image-gallery-bolupe.vercel.app/" target="_blank">
+          <img src="images/imagegallery-website.png" alt="project-screenshot" />
+          <h1>A Drag and Drop Image Gallery</h1>
+          <p>
+            A Drag-and-Drop Image Gallery built using React and Firebase.
+          </p>
+        </a>
+        </div>
+
+        <div class="box">
+          <a href="https://github.com/Bolupe/Contact-manager" target="_blank">
+          <img src="images/contactmanager-website.png" alt="project-screenshot" />
+          <h1>Contact Manager</h1>
+          <p>
+            A contact manager web app that manages contact information of users with CRUD operations which is fundamental to most web applications.
+          </p>
+          </a>
+        </div>
+
+        <div class="box">
+          <a href="https://metaverse-website-bolupe.vercel.app/" target="_blank">
+          <img src="images/metaverse-website.png" alt="project-screenshot" />
+          <h1>Metaverse Website</h1>
+          <p>
+            A Modern Next 13 Metaverse themed website styled using Framer Motion & Tailwind CSS.
+          </p>
+          </a>
+        </div>
+
+        <div class="box">
+          <a href="https://movie-box-bay.vercel.app/" target="_blank">
+          <img src="images/movie-website.png" alt="project-screenshot" />
+          <h1>Movie Discovery Web App</h1>
+          <p>
+            A Movie Discovery Web app, that allows users search for movies and view movie details powered by the TMDB api.
+          </p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work">
+      <div class="heading work-heading">
+        <h2>Work</h2>
+        <p>Work With Me</p>
+      </div>
+      <div class="work-content">
+        <div class="work-text">
+          <h1>
+            Delivering the Best <br />
+            Dynamic Websites
+          </h1>
+          <p>
+            I create exceptional websites that are not only SEO-friendly and secure but also highly scalable, ensuring outstanding user experiences. 
+            Let's collaborate and build something amazing together! Contact me today.
+          </p>
+          <a href="#contact">Contact Me</a>
+        </div>
+
+        <div class="work-img">
+          <img src="images/work.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="heading color">
+        <h2>Contact me</h2>
+        <p>Leave a message here...</p>
+      </div>
+      <div class="contact-content">
+        <div class="app">
+          <h1>Connect With Me</h1>
+          <p style="color: white">
+            Feel free to reach out concerning a job or a collaboration. <br />
+            Would love to hear from you soon...
+          </p>
+        </div>
+        <div class="contact-form">
+          <form action="mailto:bolupetaiwo15@gmail.com" target="_blank">
+            <input type="text" placeholder="Your name.."  required/>
+            <input type="email" placeholder="Your e-mail.." required/>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Your message.." required
+            ></textarea>
+            <input type="submit" value="Send" class="contact-button" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="copyright">
+      <p>Built with &#10084;&#65039; by Bolupe</p>
+    </div>
+
+    <!-- Scroll Animation -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Link To JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
